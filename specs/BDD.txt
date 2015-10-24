@@ -7,6 +7,9 @@
 3. If there are 2 bottles of beer,
   the output is the 2 bottles of beer line
 
-4. The next line is one less than the last line.
+4. If there are 10 bottles of beer,
+  the output is the 10 bottles of beer line
 
-5. The last line is the 0 line.
+5. The next line is one less than the last line.
+
+6. The last line is the 0 line.
