@@ -12,7 +12,3 @@ describe("bottlesOfBeer", function() {
     expect(bottlesOfBeer(10)).to.equal("10 bottles of beer on the wall, 10 bottles of beer. Take one down and pass it around, 9 bottles of beer on the wall.");
   });
 });
-
-// describe("drink", function() {
-//   it("prints")
-// })
