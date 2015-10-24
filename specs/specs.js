@@ -8,4 +8,7 @@ describe('bottlesOfBeer', function() {
   it("returns the lyrics for 2 bottles of beer", function() {
     expect(bottlesOfBeer(2)).to.equal("2 bottles of beer on the wall, 2 bottles of beer. Take one down and pass it around, 1 bottle of beer on the wall.");
   });
+  it("returns the lyrics for 10 bottles of beer", function() {
+    expect(bottlesOfBeer(10)).to.equal("10 bottles of beer on the wall, 10 bottles of beer. Take one down and pass it around, 9 bottles of beer on the wall.");
+  });
 });
