@@ -1,10 +1,3 @@
-// var mainVerse = "bottles of beer on the wall,";
-// var verse2 = "bottles of beer. Take one down and pass it around,";
-// var verse3 = "No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more,";
-//
-// var userInput = prompt("Enter a number");
-// var subtract = userInput - 1;
-
 var bottlesOfBeer = function(number) {
   var nextNumber = number - 1;
   if (number === 0) {
@@ -19,7 +12,7 @@ var bottlesOfBeer = function(number) {
 }
 
 var drink = function(number) {
-  var returnString;
+  var returnString = "";
 
   for (var i = number ; i >= 0 ; i--) {
     var text = bottlesOfBeer(i);
@@ -28,3 +21,14 @@ var drink = function(number) {
 
   return returnString;
 }
+
+$(document).ready(function() {
+  $("#drink").click(function(event) {
+    var number = prompt("Enter a bottle number");
+
+
+      $("#display").append(drink(number));
+
+    });
+      event.preventDefault();
+  });
