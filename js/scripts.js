@@ -17,3 +17,14 @@ var bottlesOfBeer = function(number) {
     return number + " bottles of beer on the wall, " + number + " bottles of beer. Take one down and pass it around, " + nextNumber + " bottles of beer on the wall.";
   }
 }
+
+var drink = function(number) {
+  var returnString;
+
+  for (var i = number ; i >= 0 ; i--) {
+    var text = bottlesOfBeer(i);
+    returnString += "<li>" + text + "</li>";
+  }
+
+  return returnString;
+}
