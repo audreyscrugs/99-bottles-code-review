@@ -1,0 +1,12 @@
+1. If there is 0 bottles of beer,
+  the output is the 0 beer line.
+
+2. If there is 1 bottle of beer,
+  the output is the 1 bottle of beer line.
+
+3. If there are 2 bottles of beer,
+  the output is the 2 bottles of beer line
+
+4. The next line is one less than the last line.
+
+5. The last line is the 0 line.
